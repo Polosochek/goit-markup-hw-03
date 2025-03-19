@@ -6,6 +6,31 @@ body{
 img{
     display: block;
 }
+.header-m{
+    border-bottom: 1px solid #e7e9fc;
+}
+.div-header{
+    display: flex;
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px;
+}
+.nav-header{
+    display: flex;
+    align-items: center;
+}
+.ul-header{
+    display: flex;
+    gap: 40px;
+}
+.li-header{
+    padding: 24px 0 ;
+}
+.ul-address-header{
+    display: flex;
+    gap: 40px;
+
+}
 .logo{
     font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -14,6 +39,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-right: 76px;
 }
 .logo-span{
     color: #2e2f42;
