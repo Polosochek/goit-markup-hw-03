@@ -9,10 +9,10 @@ img{
 .header-m{
     border-bottom: 1px solid #e7e9fc;
 }
-.div-header{
+.container{
     display: flex;
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
 }
 .nav-header{
@@ -24,7 +24,7 @@ img{
     gap: 40px;
 }
 .li-header{
-    padding: 24px 0 ;
+    padding: 24px 0;
 }
 .ul-address-header{
     display: flex;
