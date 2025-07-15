@@ -9,7 +9,7 @@ img{
 .header-m{
     border-bottom: 1px solid #e7e9fc;
 }
-.container{
+.container_h{
     display: flex;
     width: 1158px;
     margin: 0 auto;
@@ -76,6 +76,10 @@ margin-right: 76px;
 }
 .section{
     background-color: #2e2f42;
+    padding: 188px 0;
+}
+.container{
+
 }
 .zag{
     font-size: 56px;
@@ -83,9 +87,15 @@ margin-right: 76px;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff ;
+    max-width: 496px;
 }
 .but{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     background-color: #4D5AE5;
+    border-radius: 4px;
     font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
