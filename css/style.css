@@ -189,14 +189,33 @@ padding: 120px 0;
     color: #434455 ;
     text-align: center;
 }
+.section-f{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .zag-f{
-    
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:  #2e2f42;
+}
+.section-f-ul{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.section-f-ul-li{
+width: calc((100% - 48px) / 3);
+}
+.section-f-ul-li-appbox{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
 }
 .h-fou{
     font-weight: 500;
