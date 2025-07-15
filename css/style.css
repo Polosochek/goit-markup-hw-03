@@ -165,9 +165,10 @@ padding: 120px 0;
     color: #2e2f42 ;
 }
 .lithr{
- flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
    background-color: #FFFFFF;
+ flex-basis: calc((100% - 72px) / 4);
+
 }
 .person_box{
     padding: 32px 0;
