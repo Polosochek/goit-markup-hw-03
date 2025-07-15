@@ -130,7 +130,7 @@ margin-right: 76px;
     gap: 24px;
 }
 .section_two_ul_li{
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .section-zag{
 margin-bottom: 8px;
@@ -165,7 +165,7 @@ padding: 120px 0;
     color: #2e2f42 ;
 }
 .lithr{
- width: calc((100% - 72px) / 4);
+ flex-basis: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
    background-color: #FFFFFF;
 }
