@@ -18,7 +18,7 @@ ul ,ol{
 .header-m{
     border-bottom: 1px solid #e7e9fc;
 }
-.header-m container { 
+.header-m .container { 
     display: flex;
  }
 .container{
