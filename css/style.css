@@ -206,6 +206,7 @@ width: calc((100% - 72px) / 4);
     padding-bottom: 120px;
 }
 .zag-f{
+    margin-top: 0px;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
