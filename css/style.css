@@ -204,6 +204,9 @@ width: calc((100% - 72px) / 4);
   text-transform: capitalize;
   color:  #2e2f42;
 }
+.section-f img{
+    max-width: 100%;
+}
 .section-f-ul{
     display: flex;
     flex-wrap: wrap;
