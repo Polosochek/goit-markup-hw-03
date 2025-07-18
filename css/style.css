@@ -6,15 +6,22 @@ body{
 img{
     display: block;
 }
+ul li{
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
 .header-m{
     border-bottom: 1px solid #e7e9fc;
 }
 .container{
-    display: flex;
+    
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .nav-header{
     display: flex;
     align-items: center;
@@ -220,7 +227,6 @@ width: calc((100% - 48px) / 3);
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 .h-fou{
     margin-bottom: 8px;
